@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "dgSpecHash": "m5NZr+SdhSs=",
+  "success": false,
+  "projectFilePath": "C:\\Users\\camil\\OneDrive\\Área de Trabalho\\Projetos Programação Ativos\\Si Bella Estética\\Gerenciamento_de_Clientes\\GerenciamentoClientesAPI\\GerenciamentoClientesAPI.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.VisualStudio.Azure.Containers.Tools.Targets. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "projectPath": "C:\\Users\\camil\\OneDrive\\Área de Trabalho\\Projetos Programação Ativos\\Si Bella Estética\\Gerenciamento_de_Clientes\\GerenciamentoClientesAPI\\GerenciamentoClientesAPI.csproj",
+      "filePath": "C:\\Users\\camil\\OneDrive\\Área de Trabalho\\Projetos Programação Ativos\\Si Bella Estética\\Gerenciamento_de_Clientes\\GerenciamentoClientesAPI\\GerenciamentoClientesAPI.csproj",
+      "libraryId": "Microsoft.VisualStudio.Azure.Containers.Tools.Targets",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Swashbuckle.AspNetCore. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "projectPath": "C:\\Users\\camil\\OneDrive\\Área de Trabalho\\Projetos Programação Ativos\\Si Bella Estética\\Gerenciamento_de_Clientes\\GerenciamentoClientesAPI\\GerenciamentoClientesAPI.csproj",
+      "filePath": "C:\\Users\\camil\\OneDrive\\Área de Trabalho\\Projetos Programação Ativos\\Si Bella Estética\\Gerenciamento_de_Clientes\\GerenciamentoClientesAPI\\GerenciamentoClientesAPI.csproj",
+      "libraryId": "Swashbuckle.AspNetCore",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}
