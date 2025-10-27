@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ThanosNigga\\Documents\\Gerenciamento_de_Clientes\\GerenciamentoClientesAPI\\GerenciamentoClientesAPI.csproj": {}
+    "C:\\Users\\camil\\OneDrive\\Área de Trabalho\\Projetos Programação Ativos\\Si Bella Estética\\Gerenciamento_de_Clientes\\GerenciamentoClientesAPI\\GerenciamentoClientesAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ThanosNigga\\Documents\\Gerenciamento_de_Clientes\\GerenciamentoClientesAPI\\GerenciamentoClientesAPI.csproj": {
+    "C:\\Users\\camil\\OneDrive\\Área de Trabalho\\Projetos Programação Ativos\\Si Bella Estética\\Gerenciamento_de_Clientes\\GerenciamentoClientesAPI\\GerenciamentoClientesAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ThanosNigga\\Documents\\Gerenciamento_de_Clientes\\GerenciamentoClientesAPI\\GerenciamentoClientesAPI.csproj",
+        "projectUniqueName": "C:\\Users\\camil\\OneDrive\\Área de Trabalho\\Projetos Programação Ativos\\Si Bella Estética\\Gerenciamento_de_Clientes\\GerenciamentoClientesAPI\\GerenciamentoClientesAPI.csproj",
         "projectName": "GerenciamentoClientesAPI",
-        "projectPath": "C:\\Users\\ThanosNigga\\Documents\\Gerenciamento_de_Clientes\\GerenciamentoClientesAPI\\GerenciamentoClientesAPI.csproj",
-        "packagesPath": "C:\\Users\\ThanosNigga\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ThanosNigga\\Documents\\Gerenciamento_de_Clientes\\GerenciamentoClientesAPI\\obj\\",
+        "projectPath": "C:\\Users\\camil\\OneDrive\\Área de Trabalho\\Projetos Programação Ativos\\Si Bella Estética\\Gerenciamento_de_Clientes\\GerenciamentoClientesAPI\\GerenciamentoClientesAPI.csproj",
+        "packagesPath": "D:\\DevCaches\\NuGet\\packages",
+        "outputPath": "C:\\Users\\camil\\OneDrive\\Área de Trabalho\\Projetos Programação Ativos\\Si Bella Estética\\Gerenciamento_de_Clientes\\GerenciamentoClientesAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ThanosNigga\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\camil\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -52,23 +52,23 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.21, )"
+              "version": "[9.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.21, )"
+              "version": "[9.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[8.0.21, )"
+              "version": "[9.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.21, )"
+              "version": "[9.0.10, )"
             },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
@@ -76,7 +76,7 @@
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.6.2, )"
+              "version": "[9.0.6, )"
             }
           },
           "imports": [
@@ -98,7 +98,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
