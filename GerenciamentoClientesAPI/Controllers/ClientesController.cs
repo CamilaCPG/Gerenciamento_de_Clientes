@@ -15,7 +15,7 @@ public class ClientesController : ControllerBase
         _clienteRepositorio = clienteRepositorio;
     }
 
-    [HttpPost]
+    [HttpPost("Adicionar")]
     public async Task<ActionResult> RegistrarCliente([FromBody] ClienteModel cliente)
     {
         if (!ModelState.IsValid)
@@ -32,7 +32,7 @@ public class ClientesController : ControllerBase
         }
     }
 
-    [HttpGet]
+    [HttpGet("Clientes")]
     public async Task<ActionResult<List<ClienteModel>>> GetClientes()
     {
         try

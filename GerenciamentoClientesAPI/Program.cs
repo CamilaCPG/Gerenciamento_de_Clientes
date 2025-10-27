@@ -17,7 +17,20 @@ builder.Services.AddEntityFrameworkSqlServer()
                     option => option.UseSqlServer(builder.Configuration.GetConnectionString("SqlServer"))
                 );
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("PermitirTudo", policy =>
+    {
+        policy.AllowAnyOrigin()
+                .AllowAnyHeader()
+                .AllowAnyMethod();
+    });
+});
+
+
 var app = builder.Build();
+
+app.UseCors("PermitirTudo");
 
 // aplica migrações ao subir
 using (var scope = app.Services.CreateScope())
